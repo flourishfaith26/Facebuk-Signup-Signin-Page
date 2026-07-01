@@ -1,0 +1,234 @@
+.header{
+    font-family: 'Segoe UI' ;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    box-sizing: border-box;
+}
+.header {
+    margin: 0;
+    font-size: large;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 0px;
+}
+img{
+    width: 100px;
+    height: auto;
+}
+.divider{
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+.login-form{
+    width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.login-input{
+    padding: 20px;
+    margin-bottom: auto;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.login-input:hover{
+    border-color: grey;
+}
+.login-button{
+    padding: 14px;
+    background-color: #1877f2;
+    color: white ;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.login-button:hover{
+    background-color: #166fe5;
+}
+.forgotten-password{
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-size: medium;
+    width: 550px;
+    padding: 12px;
+    border: 0px solid transparent;
+    border-radius: 25px;
+    transition: o.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.forgotten-password:hover{
+border-color: #ddd;
+background-color: #f0f2f5;
+}
+.login-link{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.create-link{ 
+    color: #1877f2;
+    font-size: 15px;
+    text-decoration: none;
+}
+.create-button{
+    width: 550px;
+    padding: 12px;
+    background-color: white;
+    color: #1877f2;
+    border: 1px solid ;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: medium;
+    cursor: pointer;
+    margin: 10px auto 0 auto 0;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+.create-button:hover{
+    background-color: #e8eef4;
+    border-color: #1877f2;
+}
+.img-but{
+    width: 65px;
+    height: auto;
+    align-items: center;
+}
+.divider-div{
+    border: #ddd;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+
+}
+.get-started{
+    font-family: 'Segoe UI' ;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: xx-large;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 0px;
+}
+.body-create{
+    font-family: 'Segoe UI' ;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: large;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 0px;
+}
+.fillin-box{
+    width: 100;
+    padding: 20px;
+    margin-bottom: auto;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+.fillin-box:hover{
+    background-color:white;
+    border-color: black;
+}
+.bodyhead{
+    font-family: 'Segoe UI' ;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: left;
+    padding-left: 0px;
+}
+.haveacc{
+    width: 550px;
+    padding: 11px;
+    background-color: white;
+    color: grey;
+    border: 1px solid ;
+    border-radius: 25px;
+    font-size: medium;
+    font-weight: medium;
+    cursor: pointer;
+    margin: 10px auto 0 auto 0;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+.haveacc:hover{
+    background-color: #e8eef4;
+    border-color: grey;
+}
+.haveacc-link{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+.emailfillin-box{
+    width: 460px;
+    padding: 20px;
+    margin-bottom: auto;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    box-sizing: border-box;
+    
+}
+.datefillin-box{
+    width: 150px;
+    padding: 20px;
+    margin-bottom: auto;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+.password{
+    width: 460px;
+    padding: 20px;
+    margin-bottom: auto;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    box-sizing: border-box;
+}
+.create-form{
+    margin: 0 auto;
+    padding-left: 50px;
+}
+.submit{
+    padding: 14px;
+    background-color: #1877f2;
+    color: white ;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 550px;
+}
+.submit-link{
+    color: white;
+    font-size: 15px;
+    text-decoration: none; 
+}
+.submit-link:hover{
+   
+}
